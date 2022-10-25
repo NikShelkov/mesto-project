@@ -1,0 +1,12 @@
+.profile__add-button-big {
+    display: none;
+}
+
+@media screen and (max-width: 767px)  {
+    .profile__add-button-big {
+        grid-column: 1 / 4;
+        grid-row: 7 / 8;
+        justify-self: center;
+        display: block;
+    }
+}

@@ -1,0 +1,11 @@
+.card__place-name {
+    margin: 0;
+    width: 60%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    align-self: center;
+    padding-left: 20px;
+}

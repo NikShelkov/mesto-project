@@ -1,0 +1,9 @@
+.card__place-like_color_black {
+    display: none;
+    margin: 0;
+    grid-column: -1 / 1;
+    grid-row: 2 / 3;
+    justify-self: end;
+    align-self: center;
+    padding-right: 20px;
+}
