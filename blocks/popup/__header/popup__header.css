@@ -1,7 +1,9 @@
-.form__header {
-    padding: 34px 36px 54px;
+.popup__header {
     margin: 0;
-    border: 0; 
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-self: center;
+    align-self: end;
     font-size: 24px;
     font-weight: 900;
     line-height: 29px;
@@ -9,9 +11,8 @@
 }
 
 @media screen and (max-width: 767px) {
-    .form__header {
+    .popup__header {
         font-size: 18px;
         line-height: 22px;
-        padding: 25px 22px 75px;
     }
 }

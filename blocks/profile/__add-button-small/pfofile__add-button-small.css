@@ -1,7 +1,11 @@
 .profile__add-button-small {
+    height: 50px;
     align-self: center;
     grid-column: -1 / -2;
     grid-row: span 2;
+    background-image: url(../../../images/Add-Button.svg);
+    background-color: transparent;
+    border: 0;
 }
 
 .profile__add-button-small:hover {

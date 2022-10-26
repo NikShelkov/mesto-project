@@ -1,15 +1,15 @@
-.form__close-icon {
-    position: fixed;
+.popup__close-icon {
+    position: absolute;
     top: -40px;
     right: -40px;
 }
 
-.form__close-icon:hover {
+.popup__close-icon:hover {
     opacity: .6;
 }
 
 @media screen and (max-width: 767px) {
-    .form__close-icon {
+    .popup__close-icon {
         width: 20px;
         right: 0;
         top: -36px;

@@ -1,16 +1,19 @@
 .popup__container {
+    position: relative;
     width: 430px;
     background-color: white;
     border-radius: 10px; 
-    position: fixed;
-    top: 195px;
-    left: 50%;
-    transform: translate(-50%);
+    margin: 195px auto 0;
+    display: grid;
+    grid-template-columns: 1fr 358px 1fr;
+    grid-template-rows: 62px 133px 48px 87px;
 }
 
 @media screen and (max-width: 767px) {
     .popup__container {
+        grid-template-columns: 22px 238px 22px;
+        grid-template-rows: 47px 159px 45px 71px;
         max-width: 282px;
-        top: 123px;
+        margin-top: 123px;
     }
 }
