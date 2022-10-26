@@ -1,11 +1,18 @@
 .form__item {
     width: 100%;
     box-sizing: border-box;
+    font-family: inherit;
     border: 0;
     border-bottom: 1px solid black;
     margin-bottom: 30px;
     padding: 0 0 10px;
-    font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.form__item::placeholder {
+    color: black;
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
