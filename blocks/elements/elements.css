@@ -1,12 +1,13 @@
 .elements {
     margin: 51px auto 67px;
     max-width: 880px;
+    padding: 0 27px 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, 282px);
     gap: 20px 17px;
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 934px) {
     .elements {
         max-width: 581px;
     }
@@ -15,5 +16,6 @@
 @media screen and (max-width: 581px) {
     .elements {
         max-width: 282px;
+        margin: 36px auto 0;
     }
 }

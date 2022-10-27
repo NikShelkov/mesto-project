@@ -1,21 +1,16 @@
 .profile {
     margin: 0 auto;
+    padding: 0 27px 0;
     max-width: 880px;
     color: white;
     display: grid;
     grid-template-columns: 120px 30px max-content 18px 1fr 150px;
 }
 
-@media screen and (max-width: 1024px) {
-    .profile {
-        grid-template-columns: 120px 30px max-content 18px 1fr 150px;
-    }
-}
-
 @media screen and (max-width: 767px) {
     .profile {
+        padding: 0;
         max-width: 282px;
-        min-height: 286px;
         grid-template-columns: 1fr 189px 1fr;
         grid-template-rows: 120px repeat(2, 26px) repeat(2, 14px) 36px 50px;
         column-gap: 10px;

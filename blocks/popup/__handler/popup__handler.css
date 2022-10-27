@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     border: 0; 
-    grid-column: 1 / 4;
+    grid-column: 1 / 4;  
     grid-row: 4 / 5;
     justify-self: center;
     align-self: start;

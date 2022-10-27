@@ -1,82 +1,84 @@
-<!DOCTYPE html>
+<!DOCTYPE html = index.html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/index.css"> 
-    <title>Mesto</title> 
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Mesto</title>
 </head>
 
-<body class="page">   
+<body class="page">
 
-<header class="header">
-    <img class="header__logo" src="./images/Vector1.svg" alt="Лого проекта Mesto">
-</header>
+    <header class="header">
+        <img class="header__logo" src="./images/Vector1.svg" alt="Лого проекта Mesto">
+    </header>
 
-<main class="content">
+    <main class="content">
 
-<section class="profile">
-    <img class="profile__photo" src="./images/image.jpg" alt="Фото Жан-Ив Кусто">
-    <h1 class="profile__name">Жак-Ив Кусто</h1>
-    <button class="profile__edit-button" type="button"></button>  
-    <h2 class="profile__profession">Исследователь океана</h2>
-    <button class="profile__add-button-small" type="button"></button>
-    <button class="profile__add-button-big" type="button"></button>
-</section>
+        <section class="profile">
+            <img class="profile__photo" src="./images/image.jpg" alt="Фото профиля">
+            <h1 class="profile__name">Жак-Ив Кусто</h1>
+            <button class="profile__edit-button" type="button" aria-label="Кнопка редактирования профиля"></button>
+            <p class="profile__profession">Исследователь океана</p>
+            <button class="profile__add-button" type="button" aria-label="Кнопка добавления"></button>
+        </section>
 
-<section class="elements">
-    <div class="card">
-        <img class="card__image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Карачаевск">
-        <h3 class="card__place-name">Карачаев-Черкессия</h3>
-        <button class="card__button" type="button"></button> <!-- для добавления лайка добавьте класс "card__button_liked"-->
-    </div>
-    <div class="card">
-        <img class="card__image" src="./images/kirill-pershin-1404681-unsplash.jpg" alt="Гора Эльбрус">
-        <h3 class="card__place-name">Гора Эльбрус</h3>
-         <button class="card__button" type="button"></button>
-    </div>
-    <div class="card">
-        <img class="card__image" src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Домбай">
-        <h3 class="card__place-name">Домбай</h3>
-        <button class="card__button" type="button"></button>
-    </div>
-    <div class="card">
-        <img class="card__image" src="./images/kirill-pershin-1404681-unsplash.jpg" alt="Гора Эльбрус">
-        <h3 class="card__place-name">Гора Эльбрус</h3>
-        <button class="card__button" type="button"></button>
-    </div>
-    <div class="card">
-        <img class="card__image" src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Домбай">
-        <h3 class="card__place-name">Домбай</h3>
-        <button class="card__button" type="button"></button>
-    </div>
-    <div class="card">
-        <img class="card__image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Карачаевск">
-        <h3 class="card__place-name">Карачаевск</h3>
-        <button class="card__button" type="button"></button>
-    </div>
-</section>
+        <section class="elements">
+            <article class="card">
+                <img class="card__image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Карачаевск">
+                <h3 class="card__place-name">Карачаево-Черкессия</h3>
+                <button class="card__button" type="button" aria-label="Поставить лайк"></button>
+            </article>
+            <article class="card">
+                <img class="card__image" src="./images/kirill-pershin-1404681-unsplash.jpg" alt="Гора Эльбрус">
+                <h3 class="card__place-name">Гора Эльбрус</h3>
+                <button class="card__button" type="button" aria-label="Поставить лайк"></button>
+            </article>
+            <article class="card">
+                <img class="card__image" src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Домбай">
+                <h3 class="card__place-name">Домбай</h3>
+                <button class="card__button" type="button" aria-label="Поставить лайк"></button>
+            </article>
+            <article class="card">
+                <img class="card__image" src="./images/kirill-pershin-1404681-unsplash.jpg" alt="Гора Эльбрус">
+                <h3 class="card__place-name">Гора Эльбрус</h3>
+                <button class="card__button" type="button" aria-label="Поставить лайк"></button>
+            </article>
+            <article class="card">
+                <img class="card__image" src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Домбай">
+                <h3 class="card__place-name">Домбай</h3>
+                <button class="card__button" type="button" aria-label="Поставить лайк"></button>
+            </article>
+            <article class="card">
+                <img class="card__image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Карачаевск">
+                <h3 class="card__place-name">Карачаевск</h3>
+                <button class="card__button" type="button" aria-label="Поставить лайк"></button>
+            </article>
+        </section>
 
-<div class="popup"> <!-- для открытия формы добавьте "popup_opened" -->
-    <div class="popup__container">
-        <h2 class="popup__header">Редактировать профиль</h2>
-        <img class="popup__close-icon" src="./images/Close_Icon.svg" alt="">
-        <fieldset class="popup__input-container">
-            <input class="popup__item popup__item_name" name="name" type="text" placeholder="Жак-Ив Кусто" required> <!--value="Жак-Ив Кусто"-->
-            <input class="popup__item popup__item_profession" name="profession" type="text" placeholder="Ислледователь Океана" required> <!--value="Ислледователь Океана" -->
-        </fieldset>
-        <fieldset class="popup__handler">
-            <input class="popup__button" type="submit" value="Сохранить">
-        </fieldset>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__copyright">&#169; 2020 Mesto Russia</p>
+    </footer>
+
+    <div class="popup">
+        <!-- для открытия формы добавьте "popup_opened" -->
+        <form class="popup__container" name="Mesto-form" method="post">
+            <h2 class="popup__header">Редактировать профиль</h2>
+            <button class="popup__close-icon" type="button" aria-label="Закрыть окно"></button>
+            <fieldset class="popup__input-container">
+                <input class="popup__item popup__item_type_name" name="name" type="text" placeholder="Жак-Ив Кусто" required>
+                <!--value="Жак-Ив Кусто"-->
+                <input class="popup__item popup__item_type_profession" name="occupation" type="text" placeholder="Ислледователь Океана" required>
+                <!--value="Ислледователь Океана" -->
+                <button class="popup__button" type="submit" value="Сохранить">Сохранить</button>
+            </fieldset>
+        </form>
     </div>
-</div>
-
-</main>  
-
-<footer class="footer">
-    <p class="footer__copyright">&#169; 2020 Mesto Russia</p>
-</footer>
 
 </body>
+
 </html>

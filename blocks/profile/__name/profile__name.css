@@ -1,4 +1,5 @@
 .profile__name {
+    max-width: 336px;
     margin: 0;
     font-size: 42px;
     font-weight: 500;
@@ -7,15 +8,19 @@
     margin: 0;
     grid-column: 3 / 4;
     align-self: end;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 @media screen and (max-width: 767px) {
     .profile__name {
+        max-width: 189px;
         font-size: 27px;
         line-height: 33px;
         grid-column: 2 / 3;
         grid-row: 3 / 4;
         align-self: center;
-        justify-self: center;
+        justify-self: end;
     }
 }
