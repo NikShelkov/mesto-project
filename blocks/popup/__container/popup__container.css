@@ -6,13 +6,13 @@
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 358px 1fr;
-    grid-template-rows: 62px 54px 177px 37px;
+    grid-template-rows: 34px 259px 37px;
 }
 
 @media screen and (max-width: 767px) {
     .popup__container {
         grid-template-columns: 22px 238px 22px;
-        grid-template-rows: 47px 75px 175px 25px;
+        grid-template-rows: 25px 272px 25px;
         max-width: 282px;
     }
 }

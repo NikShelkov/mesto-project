@@ -1,5 +1,5 @@
 .popup__header {
-    margin: 0;
+    margin: 0 0 54px;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     align-self: end;
@@ -11,6 +11,7 @@
 
 @media screen and (max-width: 767px) {
     .popup__header {
+        margin-bottom: 75px;
         font-size: 18px;
         line-height: 22px;
     }
