@@ -51,7 +51,6 @@ const deleteCardFunc = (deleteCardColletion) => {
         item.addEventListener('click', deleteCard)
     })
     function deleteCard(event) {
-        
         if(event.target.classList.contains('trash')) {
         event.target.closest('.card').remove()
         }
